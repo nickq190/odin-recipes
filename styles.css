@@ -1,3 +1,17 @@
-h1 {
+h1,
+h2,
+h3 {
     font-family: "Lucida Console", monospace;
+    text-align: center;
+}
+
+.chai-tea {
+    color: #513315;
+    background-color: #e5bf99;
+}
+
+.chai-tea h1,
+.chai-tea h2 {
+    background-color: #513315;
+    color: #e5bf99;
 }
