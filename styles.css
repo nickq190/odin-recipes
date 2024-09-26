@@ -1,7 +1,18 @@
 /* General */
 * {
     font-family: "monospace";
-    outline: 2px solid red;
+    <!-- outline: 2px solid red; -->
+}
+
+body {
+    width: 75%;
+    margin: 20px auto;
+}
+
+ul,
+ol {
+    width: 75%;
+    margin: auto auto;
 }
 
 img {
