@@ -1,3 +1,20 @@
+/* General */
+* {
+    font-family: "monospace";
+    outline: 2px solid red;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+
+p {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
@@ -5,6 +22,7 @@ h3 {
     text-align: center;
 }
 
+/* chai-tea-mix.html */
 .chai-tea {
     color: #513315;
     background-color: #e5bf99;
@@ -14,4 +32,28 @@ h3 {
 .chai-tea h2 {
     background-color: #513315;
     color: #e5bf99;
+}
+
+/* vegetarian-moussaka.html */
+.moussaka {
+    color: hsl(120, 100%, 80%);
+    background-color: hsl(120, 100%, 25%);
+}
+
+.moussaka h1,
+.moussaka h2 {
+    color: hsl(120, 100%, 25%);
+    background-color: hsl(120, 100%, 80%);
+}
+
+/* vegetarian bibimbap.html */
+.bibimbap {
+    color: rgb(230, 115, 0);
+    background-color: rgb(255, 204, 153);
+}
+
+.bibimbap h1,
+.bibimbap h2 {
+    color: rgb(255, 204, 153);
+    background-color: rgb(230, 115, 0);
 }
