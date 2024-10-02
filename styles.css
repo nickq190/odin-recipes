@@ -1,12 +1,17 @@
 /* General */
 * {
     font-family: "monospace";
+    box-sizing: inherit;
     <!-- outline: 2px solid red; -->
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
-    width: 75%;
-    margin: 20px auto;
+    width: 75vw;
+    margin: 2.5vh auto;
 }
 
 ul,
@@ -31,6 +36,13 @@ h2,
 h3 {
     font-family: "Lucida Console", monospace;
     text-align: center;
+}
+
+/* index.html */
+#index-body {
+    padding-top: 1vh;
+    background-color:bisque;
+    height: 95vh;
 }
 
 /* chai-tea-mix.html */
